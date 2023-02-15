@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Cadastre seu deck</title>
+  </head>
+
+  <body>
+      
+    
+    <div>
+        <p id="first">Cadastro de novos duelistas</p>
+        <br>
+      <h1 id="titulo">Liga dos Duelistas</h1>
+      <br>
+      <p id="subtitulo">Complete suas informações</p>
+      
+      <br />
+    </div>
+
+    <form>
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="nome"><strong>Nome</strong></label>
+          <input type="text" name="nome" id="nome" required />
+        </div>
+
+        <div class="campo">
+          <label for="sobrenome"><strong>Sobrenome</strong></label>
+          <input type="text" name="sobrenome" id="sobrenome" required />
+        </div>
+      </fieldset>
+
+      <div class="campo">
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <div class="campo">
+        <label for="tempo"
+          ><strong> Você atualmente possuí um deck jogável? </strong></label
+        >
+        <select id="tempo" required>
+          <option selected disabled value="tempo">Selecione</option>
+          <option>Sim</option>
+          <option>Não</option>
+          <option>Estou atualmente montando um</option>
+        </select>
+      </div>
+
+      <div class="campo">
+        <label for="tempo"><strong> Há quanto tempo você joga? </strong></label>
+        <select id="tempo" required>
+          <option selected disabled value="">Selecione</option>
+          <option>Comecei recentemente (menos de 1 ano)</option>
+          <option>Jogo casualmente com amigos (mais de um ano)</option>
+          <option>
+            Já tenho o costume de participar de torneios locais (3 anos ou mais)
+          </option>
+        </select>
+      </div>
+
+      <div class="campo">
+        <br />
+        <label for="deck"
+          ><strong>
+            Qual é o nome do seu deck? fale um pouco sobre ele.
+          </strong></label
+        >
+        <textarea
+          rows="6"
+          style="width: 26em"
+          id="experiencia"
+          name="experiencia"
+        ></textarea>
+      </div>
+
+      <button class="botao" type="submit" onsubmit="">Concluído</button>
+    </form>
+
+  </body>
+</html>
