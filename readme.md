@@ -14,6 +14,12 @@
 - CSS
 
 
+
+
 <p align="center">Criado com :heart: por 
-  <a href="https://github.com/ggkadev">GGKADEV</a>
+  <a href="https://github.com/ggkadev">ggkadev</a>
+</p> 
+
+<p align="center">Créditos:
+  <a href="https://github.com/rafaballerini">rafaballerini</a>
 </p> 
